@@ -10,6 +10,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/sirupsen/logrus"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -73,6 +74,7 @@ func (c *Client) GetJSON(ctx context.Context, endpoint string, v interface{}) er
 	if err != nil {
 		return err
 	}
+	logrus.Tracef("iex requesting: GET %+v", address)
 	resp, err := c.httpClient.Do(req.WithContext(ctx))
 	if err != nil {
 		return err
