@@ -1,5 +1,5 @@
 // Copyright (c) 2019 The iexcloud developers. All rights reserved.
-// Project site: https://github.com/goinvest/iexcloud
+// Project site: https://github.com/ypapax/iexcloud
 // Use of this source code is governed by a MIT-style license that
 // can be found in the LICENSE file for the project.
 
@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"log"
 
-	iex "github.com/goinvest/iexcloud/v2"
-	"github.com/goinvest/iexcloud/v2/examples/iexcloud/domain"
+	iex "github.com/ypapax/iexcloud/v2"
+	"github.com/ypapax/iexcloud/v2/examples/iexcloud/domain"
 	"github.com/spf13/cobra"
 )
 

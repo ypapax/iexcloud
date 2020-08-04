@@ -14,7 +14,7 @@ access the [IEX Cloud API][1] an account and token are required.
 ## Installation
 
 ```bash
-$ go get github.com/goinvest/iexcloud
+$ go get github.com/ypapax/iexcloud
 ```
 
 ## Examples
@@ -159,12 +159,12 @@ $ make cover
 [LICENSE][] file for more information.
 
 [1]: https://iexcloud.io
-[2]: https://github.com/goinvest/iexcloud/blob/master/examples/iexcloud/README.md
-[iexcloud]: https://github.com/goinvest/iexcloud
-[godoc badge]: https://godoc.org/github.com/goinvest/iexcloud?status.svg
-[godoc link]: https://godoc.org/github.com/goinvest/iexcloud
-[LICENSE]: https://github.com/goinvest/iexcloud/blob/master/LICENSE
+[2]: https://github.com/ypapax/iexcloud/blob/master/examples/iexcloud/README.md
+[iexcloud]: https://github.com/ypapax/iexcloud
+[godoc badge]: https://godoc.org/github.com/ypapax/iexcloud?status.svg
+[godoc link]: https://godoc.org/github.com/ypapax/iexcloud
+[LICENSE]: https://github.com/ypapax/iexcloud/blob/master/LICENSE
 [license badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [pull request]: https://help.github.com/articles/using-pull-requests
-[report badge]: https://goreportcard.com/badge/github.com/goinvest/iexcloud
-[report card]: https://goreportcard.com/report/github.com/goinvest/iexcloud
+[report badge]: https://goreportcard.com/badge/github.com/ypapax/iexcloud
+[report card]: https://goreportcard.com/report/github.com/ypapax/iexcloud
